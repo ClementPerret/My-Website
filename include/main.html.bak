@@ -1,0 +1,367 @@
+<div class="row height100 nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 height100desk nopadding height100" id="home-slide">
+        <div id="home-slide-content" class="padding20">
+            <h1><span class="colorgreen">Clément</span> Perret</h1><br/>
+            <h2>Développeur & Intégrateur Web</h2>
+            <br/><div class="spacerbar"></div><br/>
+            <h2>Architecte de l'information</h2>
+            <br/><div class="spacerbar"></div><br/>
+            <h2>UX Designer</h2>
+        </div>
+    </div>
+</div>
+<div class="row height100 nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding" id="about-me">
+        <div id="about-me-content" class="padding20">
+            <?php
+              $birthDate = "23/12/1992";
+              $birthDate = explode("/", $birthDate);
+              $age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
+                ? ((date("Y") - $birthDate[2]) - 1)
+                : (date("Y") - $birthDate[2]));
+            ?>
+            <h3><span class="content_title">PRESENTATION</span></h3>
+            <div class="img_container">
+                <img alt="Clément Perret Web Developpeur" class="lazy" data-original="images/clement.jpg">
+                <noscript>
+                    <img alt="Clément Perret Web Developpeur" src="images/clement.jpg">
+                </noscript>
+            </div>
+            <p>Agé de <?php echo $age ?> ans et passionné par les sports extrêmes, je pratique le VTT de descente et l'enduro en motocross, j'ai décidé en 2012 de mettre en commun cette passion et mon intérêt pour les métiers du web afin d'en faire mon métier.
+                <br/>J'ai donc travaillé comme apprenti webmarketeur et apprenti webmaster pendant 3 ans pour la société Mistervelo.com en tant qu'alternant en BTS puis en Licence E-business.
+                <br/><br/>Autodidacte sur la partie technique (HTML, CSS, JS, PHP), mon objectif était d'affiner mes connaissances en développement web ainsi qu'en UX Design afin de créer des sites web performants et ergonomiques.
+                <br/>C'est pourquoi j'ai rejoint en septembre 2015 le Master Architecture de l'Information à l'école Normale Supérieur de Lyon.
+                <!-- <br/><br/>Je suis aujourd’hui à la recherche de projets Web en freelance et suis disponible dans le département de la Loire.
+                <br/>Vous trouverez ci-dessous mon CV, mes différentes expériences, une liste non exhaustive des compétences que je peux mettre à votre disposition, tant en développement, qu'en graphisme ou en référencement naturel (SEO) et payant (SEA).
+                 -->
+            </p>
+            <div class="download_link"><a  href="CV-clément-perret.pdf" target="_blank">Télécharger mon CV au format PDF  <i class="fa fa-download" aria-hidden="true"></i></a></div>
+        </div>
+    </div>
+</div>
+<div class="row height300 nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding height100 parallax-window spacer" data-parallax="scroll" data-image-src="./images/parallax/ens.jpg" id="spacer_cv">
+        <div id="spacer_cv_content" class="spacer_content">
+             <span class="spacer_title">Formation</span>
+        </div>
+    </div>
+</div>
+<div class="row height100 nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding" id="cv">
+        <div id="cv_content" class="padding20">
+            <h3><span class="content_title">FORMATION</span></h3>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="forma">
+                    <span class="dates">2015 - Aujourd'hui</span>
+                    <span class="formaxp_icon_container"><span class="formaxp_icon"><i class="fa fa-university" aria-hidden="true"></i></span></span>
+                    <h4>Master Architecture de l'information</h4>
+                    <p>Ecole Normale Supérieure de Lyon </p>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="forma">
+                    <span class="dates">2014 - 2015</span>
+                    <span class="formaxp_icon_container"><span class="formaxp_icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span></span>
+                    <h4>Licence E-business</h4>
+                    <p>Université Lyon 1 <br/>formation par alternance</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="forma">
+                    <span class="dates">2012 - 2014</span>
+                    <span class="formaxp_icon_container"><span class="formaxp_icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span></span>
+                    <h4>BTS Management des unités commerciales</h4>
+                    <p>Centre de formation Aformance - Pordic<br/>formation par alternance</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="forma">
+                    <span class="dates">2011</span>
+                    <span class="formaxp_icon_container"><span class="formaxp_icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span></span>
+                    <h4>IUT Informatique</h4>
+                    <p>Université Clermont 1<br/><br/></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="forma">
+                    <span class="dates">2008 - 2011</span>
+                    <span class="formaxp_icon_container"><span class="formaxp_icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span></span>
+                    <h4>Baccalauréat Scientifique</h4>
+                    <p>Lycée l'Astrée - Boën sur lignon</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row height300 nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding height100 parallax-window spacer" data-parallax="scroll" data-image-src="./images/parallax/experience.jpg" id="spacer_xp">
+        <div id="spacer_xp_content" class="spacer_content">
+            <span class="spacer_title">Expérience</span>
+        </div>
+    </div>
+</div>
+<div class="row height100 nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding" id="xp">
+        <div id="xp_content" class="padding20">
+            <h3><span class="content_title">EXPERIENCE</span></h3>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="expbox">
+                        <span class="dates">2016</span>
+                        <span class="formaxp_icon_container"><span class="formaxp_icon"><i class="fa fa-car" aria-hidden="true"></i></span></span>
+                        <h4>Michelin</h4>
+                        <h5>Architecte de l'information dans le cadre du projet tutoré de master</h5>
+                        <div class="missions">
+                            <span class="missiontitle">Missions réalisées :</span>
+                            <ul>
+                                <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Ingénierie d'un projet de plateforme e-learning pour le secteur R&D</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+               <div class="col-md-6 col-sm-12 col-xs-12 ">
+                   <div class="expbox">
+                       <span class="dates">2012 - 2015</span>
+                       <span class="formaxp_icon_container"><span class="formaxp_icon"><i class="fa fa-bicycle" aria-hidden="true"></i></span></span>
+                       <h4>Mistervelo.com</h4>
+                       <h5>Apprenti Webmaster - Webmarketeur</h5>
+                       <div class="missions">
+                           <span class="missiontitle">Missions réalisées :</span>
+                           <ul>
+                               <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Création, intégration, envoie et analyse de campagnes e-mail marketing</li>
+                               <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Gestion de campagnes marketing Adwords, comparateurs de prix et places de marchée</li>
+                               <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Développement et gestion des sites internet</li>
+                               <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Veille opérationnelle</li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+
+        </div>
+    </div>
+</div>
+<div class="row height300 nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding height100 parallax-window spacer" data-parallax="scroll" data-image-src="./images/parallax/skills.jpg" id="spacer_skills">
+        <div id="spacer_skills_content" class="spacer_content">
+            <span class="spacer_title">Compétences</span>
+        </div>
+    </div>
+</div>
+<div class="row nopadding height100">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding" id="skills">
+        <div id="skills_content" class="padding20">
+            <h3><span class="content_title">COMPETENCES</span></h3>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 skillcol">
+                <ul class="skillset">
+                    <li><i class="fa fa-cogs fa-4x" aria-hidden="true"></i></li>
+                    <li><h4>Architecture de l'information - UX Design</h4></li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Entretiens utilisateurs</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Création, admission et analyse de questionnaires</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Tests utilisateurs</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Maquetage (Logiciel Axure)</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Wireframes</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Zoning</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 skillcol">
+                <ul class="skillset">
+                    <li><i class="fa fa-code fa-4x" aria-hidden="true"></i></li>
+                    <li><h4>Développement Web</h4></li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Php</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>MySql</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Wordpresss - Woocommerce</li>
+                    <li>
+                        <ul class="subskillset">
+                            <li><i class="fa fa-circle-thin puce" aria-hidden="true"></i>Création de Thèmes</li>
+                            <li><i class="fa fa-circle-thin puce" aria-hidden="true"></i>Création de Plugins</li>
+                            <li><i class="fa fa-circle-thin puce" aria-hidden="true"></i>Utilisation des custom post types</li>
+                        </ul>
+                    </li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Javascript - Jquery</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 skillcol">
+                <ul class="skillset">
+                    <li><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></li>
+                    <li><h4>Design - Intégration</h4></li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>HTML5</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>CSS3</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Adobe Photoshop - Adobe Illustrator</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Utilisation de framework (Boostrap - Foundation)</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Respect des normes du W3C</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Développement Mobile</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 skillcol">
+                <ul class="skillset">
+                    <li><i class="fa fa-align-center fa-4x" aria-hidden="true"></i></li>
+                    <li><h4>Référencement</h4></li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Google Analytics</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Google AdWords</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Référencement Naturel</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Gestion de sites sur les places de marché</li>
+                    <li><i class="fa fa-circle puce" aria-hidden="true"></i>Gestion de sites sur les comparateurs de prix</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row height300 nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding height100 parallax-window spacer" data-parallax="scroll" data-image-src="./images/parallax/realisations.jpg" id="spacer_portfolio">
+        <div id="spacer_portfolio_content" class="spacer_content">
+             <span class="spacer_title">Réalisations</span>
+        </div>
+    </div>
+</div>
+<div class="row height100desk nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding" id="portfolio">
+        <div id="portfolio_content" class="padding20">
+            <h3><span class="content_title">REALISATIONS</span></h3>
+            <div id="realisationscontent">
+                <ul id="listetrie">
+                    <li id="cat-all-button" class="tributton selectedlist" data-filter=".cat-all" >Voir tout</li>
+                    <li id="cat-dev-button" class="tributton" data-filter=".cat-dev">Développement PHP / JS / MYSQL</li>
+                    <li id="cat-int-button" class="tributton" data-filter=".cat-int">Intégration HTML5 / CSS3</li>
+                    <li id="cat-design-button" class="tributton" data-filter=".cat-design">Design</li>
+                    <li id="cat-gestion-button" class="tributton" data-filter=".cat-gestion">Gestion de projet</li>
+                    <li id="cat-ref-button" class="tributton" data-filter=".cat-ref">Référencement</li>
+                </ul>
+
+                <div class="col-md-3 col-sm-6 col-xs-6 realbox cat-all cat-dev cat-int cat-design visible">
+                    <img class="lazy" data-original="images/realisations/nyo/thumbnail-nyo.jpg" alt="Portfolio Jonathan Lion">
+                    <noscript>
+                        <img src="images/realisations/nyo/thumbnail-nyo.jpg" alt="Portfolio de Jonathan Lion">
+                    </noscript>
+                    <div class="realmorecontainer">
+                        <div class="realmore" data-projet="nyo"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="realboxoverlay">Portfolio de Jonathan</div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-6 realbox cat-all cat-dev cat-int cat-ref cat-design cat-gestion visible">
+                    <img class="lazy" data-original="images/realisations/berthe/thumbnail-berthe.jpg" alt="Site marchand la Ferme de la Berthe">
+                    <noscript>
+                        <img src="images/realisations/berthe/thumbnail-berthe.jpg" alt="Site marchand la Ferme de la Berthe">
+                    </noscript>
+                    <div class="realmorecontainer">
+                        <div class="realmore" data-projet="berthe"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="realboxoverlay">Ferme de la Berthe</div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-6 realbox cat-all cat-dev cat-int cat-design visible">
+                    <img class="lazy" data-original="images/realisations/fitness/thumbnail-myfitnessrecords.jpg" alt="Site de musculation My Fitness Records">
+                    <noscript>
+                        <img src="images/realisations/fitness/thumbnail-myfitnessrecords.jpg" alt="Site de musculation My Fitness Records">
+                    </noscript>
+                    <div class="realmorecontainer">
+                        <div class="realmore" data-projet="fitness"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="realboxoverlay">My Fitness Records</div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-6 realbox cat-all cat-int cat-design visible">
+                    <img class="lazy" data-original="images/realisations/dadou/thumbnail-dadou.jpg" alt="Daphné Chauvel">
+                    <noscript>
+                        <img src="images/realisations/dadou/thumbnail-dadou.jpg" alt="Daphné Chauvel">
+                    </noscript>
+                    <div class="realmorecontainer">
+                        <div class="realmore" data-projet="dadou"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="realboxoverlay">Portfolio de Daphné</div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-6 realbox cat-int cat-all cat-design visible">
+                    <img class="lazy" data-original="images/realisations/giant/thumbnail-giant-lamballe.jpg" alt="Giant">
+                    <noscript>
+                        <img src="images/realisations/giant/thumbnail-giant-lamballe.jpg" alt="Giant">
+                    </noscript>
+                    <div class="realmorecontainer">
+                        <div class="realmore" data-projet="giant"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="realboxoverlay">Giant Shop Lamballe</div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-6 realbox cat-all visible cat-design cat-gestion">
+                    <img class="lazy" data-original="images/realisations/ocinaee/thumbnail-ocinaee.jpg" alt="Projet Ocinaéé">
+                    <noscript>
+                        <img src="images/realisations/ocinaee/thumbnail-ocinaee.jpg" alt="Projet Ocinaéé">
+                    </noscript>
+                    <div class="realmorecontainer">
+                        <div class="realmore" data-projet="ocinaee"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="realboxoverlay">Projet Ocinaéé</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row height300 nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding height100 parallax-window spacer" data-parallax="scroll" data-image-src="./images/parallax/handshake.jpg" id="spacer_contact">
+        <div id="spacer_contact_content" class="spacer_content">
+            <span class="spacer_title">Contact</span>
+        </div>
+    </div>
+</div>
+<div class="row nopadding">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding" id="contact">
+        <div id="contact_content" class="padding20">
+            <h3><span class="content_title">CONTACT</span></h3>
+
+            <form id="contactform" method="post" action="traitement.php">
+
+                <fieldset id="nomprenomfieldset">
+                    <div class="col-md-6 col-sm-12 col-xs-12 nopadding">
+                        <label for="inputprenom">Prénom</label><br/>
+                        <input id="inputprenom" name="prenom" type="text" placeholder="Ex: John" required>
+                        <br/><span id="msg_prenom"></span>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 nopadding">
+                        <label for="inputnom">Nom</label><br/>
+                        <input id="inputnom" name="nom" type="text" placeholder="Ex: Doe" required><br/>
+                        <br/><span id="msg_nom"></span>
+                    </div>
+                </fieldset>
+
+                <fieldset id="contactfieldset">
+                    <div class="col-md-6 col-sm-12 col-xs-12 nopadding">
+                        <label for="inputemail">Adresse e-mail</label><br/>
+                        <input id="inputemail" name="email" type="email" required placeholder="Ex: john@doe.fr">
+                        <br/><span id="msg_email"></span>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 nopadding">
+                        <label for="inputtel">Numéro de téléphone</label><br/>
+                        <input id="inputtel" name="tel" type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" placeholder="Ex: 06 XX XX XX XX">
+                        <br/> <span id="msg_tel"></span>
+                    </div>
+                </fieldset>
+
+                <label for="inputsujet">Sujet</label><br/>
+                <input id="inputsujet" name="sujet" type="text" placeholder="Ex: Demande de devis" required><br/>
+                <br/><span id="msg_sujet"></span>
+
+                <label for="inputmessage">Votre message</label><br/>
+                <textarea id="inputmessage" name="message" placeholder="Bonjour, ..." required></textarea><br/>
+                <br/><span id="msg_message"></span>
+
+                <input id="buttonenvoi" name="envoi" type="submit" value="Envoyer">
+                <input id="reinit" name="reset" type="reset">
+            </form>
+            <br/><span id="msg_all"></span>
+
+        </div>
+        <footer class="col-md-12 col-sm-12 col-xs-12 nopadding">
+            Thème et contenu par Clément Perret. Copyright ©  2016, tous droits réservés
+        </footer>
+    </div>
+
+</div>
+
+
+
