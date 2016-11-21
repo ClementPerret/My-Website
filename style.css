@@ -163,7 +163,7 @@ body {
 		border-bottom: 1px solid #8FE245;
 	}
 	ul.nav.navbar-nav {
-		background: #4a4a4a;
+		background: #7D7D7D;
 		margin: 0;
 	}
 	.navbar-default {
@@ -234,7 +234,7 @@ a.navbar-brand {
 }
 @media (max-width: 768px) {
 	#bs-example-navbar-collapse-1 {
-		background: #4a4a4a;
+		background: #7D7D7D;
 	}
 	#social {
 		padding-bottom: 20px;
@@ -319,7 +319,7 @@ a.navbar-brand {
 /* 3.1 home-slide  */
 
 #home-slide {
-	background: url(./images/home.jpg) center;
+	background: url(images/home.jpg) center;
 	background-size: cover;
 }
 #home-slide-content {
@@ -534,14 +534,11 @@ div#xp {
 }
 /* 3.3 parallax */
 
-.spacer {
-	background: rgba(0,0,0,0.5);
-}
-
 .spacer_content {
 	height:100%;
 	text-align: center;
 	color: #FFF;
+	background: rgba(0,0,0,0.5);
 }
 .spacer_title {
 	font-size: 2.5em;
@@ -552,13 +549,24 @@ div#xp {
 	}
 }
 #spacer_cv {
-
+ 	background: url("images/parallax/ens.jpg") center fixed;
+	background-size: cover;
+}
+#spacer_xp{
+	background: url("images/parallax/experience.jpg") center fixed;
+	background-size: cover;
 }
 #spacer_skills {
-
+	background: url("images/parallax/skills.jpg") center fixed;
+	background-size: cover;
 }
 #spacer_portfolio {
-
+	background: url("images/parallax/realisations.jpg") center fixed;
+	background-size: cover;
+}
+#spacer_contact {
+	background: url("images/parallax/handshake.jpg") center fixed;
+	background-size: cover;
 }
 
 /* 3.4 Skills */
@@ -957,7 +965,6 @@ canvas.particles-js-canvas-el {
 	left: 0;
 	z-index: 1;
 }
-
 #noscriptalert {
 	height: 30px;
 	text-align: center;
